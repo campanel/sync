@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd51dc06-df83-4842-bf72-76acbfe3fdd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BpNOC/BpSyncDB.php" afterPath="$PROJECT_DIR$/BpNOC/BpSyncDB.php" />
     </list>
     <ignored path="sync.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +25,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start-priax-sync-full.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start-priax-sync-full.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start-priax-sync-full.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BpSyncDB.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BpNOC/BpSyncDB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+              <folding>
+                <marker date="1466012724927" expanded="true" signature="583:599" placeholder="DROP TABLE h... " />
+                <marker date="1466012724927" expanded="true" signature="634:757" placeholder="CREATE TABLE... hosts" />
+                <marker date="1466012724927" expanded="true" signature="1042:1061" placeholder="DROP TABLE s... " />
+                <marker date="1466012724927" expanded="true" signature="1096:1247" placeholder="CREATE TABLE... services" />
+                <marker date="1466012724927" expanded="true" signature="1543:1558" placeholder="DROP TABLE l... " />
+                <marker date="1466012724927" expanded="true" signature="1583:1689" placeholder="CREATE TABLE... logs" />
+                <marker date="1466012724927" expanded="true" signature="1713:1738" placeholder="DROP TABLE i... " />
+                <marker date="1466012724927" expanded="true" signature="1763:1850" placeholder="CREATE TABLE... incremental_id" />
+                <marker date="1466012724927" expanded="true" signature="3627:3729" placeholder="INSERT INTO logs... " />
+                <marker date="1466012724927" expanded="true" signature="4012:4073" placeholder="delete from " />
+                <marker date="1466012724927" expanded="true" signature="4041:4072" placeholder="select max(I... logs" />
+                <marker date="1466012724927" expanded="true" signature="4757:4797" placeholder="delete from " />
+                <marker date="1466012724927" expanded="true" signature="5106:5143" placeholder="delete from " />
+                <marker date="1466012724927" expanded="true" signature="5445:5479" placeholder="delete from " />
+                <marker date="1466012724927" expanded="true" signature="5956:5972" placeholder="delete from " />
+                <marker date="1466012724927" expanded="true" signature="6322:6356" placeholder="select * fro... logs" />
+                <marker date="1466012724927" expanded="true" signature="6760:6791" placeholder="select count... logs" />
+                <marker date="1466012724927" expanded="true" signature="7265:7365" placeholder="select * fro... logs" />
+                <marker date="1466012724927" expanded="true" signature="7853:7903" placeholder="select * fro... logs" />
+                <marker date="1466012724927" expanded="true" signature="8505:8636" placeholder="select * fro... logs" />
+                <marker date="1466012724927" expanded="true" signature="9073:9123" placeholder="select max(i... incremental_id" />
+                <marker date="1466012724927" expanded="true" signature="9742:9791" placeholder="select servi... services" />
+                <marker date="1466012724927" expanded="true" signature="10226:10275" placeholder="select priax... services" />
+                <marker date="1466012724927" expanded="true" signature="10704:10747" placeholder="select priax... hosts" />
+                <marker date="1466012724927" expanded="true" signature="11174:11217" placeholder="select host_... hosts" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +95,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/BpNOC/BpSyncDB.php" />
       </list>
     </option>
   </component>
@@ -183,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1461596193561</updated>
-      <workItem from="1466003456405" duration="1672000" />
+      <workItem from="1466003456405" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="Catalogos ativo">
       <created>1466004561972</created>
@@ -192,11 +229,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466004561972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea">
+      <created>1466005142522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466005142522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1672000" />
+    <option name="totallyTimeSpent" value="2409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -237,7 +281,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Catalogos ativo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Catalogos ativo" />
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,6 +407,40 @@
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BpNOC/BpSyncDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+          <folding>
+            <marker date="1466012724927" expanded="true" signature="583:599" placeholder="DROP TABLE h... " />
+            <marker date="1466012724927" expanded="true" signature="634:757" placeholder="CREATE TABLE... hosts" />
+            <marker date="1466012724927" expanded="true" signature="1042:1061" placeholder="DROP TABLE s... " />
+            <marker date="1466012724927" expanded="true" signature="1096:1247" placeholder="CREATE TABLE... services" />
+            <marker date="1466012724927" expanded="true" signature="1543:1558" placeholder="DROP TABLE l... " />
+            <marker date="1466012724927" expanded="true" signature="1583:1689" placeholder="CREATE TABLE... logs" />
+            <marker date="1466012724927" expanded="true" signature="1713:1738" placeholder="DROP TABLE i... " />
+            <marker date="1466012724927" expanded="true" signature="1763:1850" placeholder="CREATE TABLE... incremental_id" />
+            <marker date="1466012724927" expanded="true" signature="3627:3729" placeholder="INSERT INTO logs... " />
+            <marker date="1466012724927" expanded="true" signature="4012:4073" placeholder="delete from " />
+            <marker date="1466012724927" expanded="true" signature="4041:4072" placeholder="select max(I... logs" />
+            <marker date="1466012724927" expanded="true" signature="4757:4797" placeholder="delete from " />
+            <marker date="1466012724927" expanded="true" signature="5106:5143" placeholder="delete from " />
+            <marker date="1466012724927" expanded="true" signature="5445:5479" placeholder="delete from " />
+            <marker date="1466012724927" expanded="true" signature="5956:5972" placeholder="delete from " />
+            <marker date="1466012724927" expanded="true" signature="6322:6356" placeholder="select * fro... logs" />
+            <marker date="1466012724927" expanded="true" signature="6760:6791" placeholder="select count... logs" />
+            <marker date="1466012724927" expanded="true" signature="7265:7365" placeholder="select * fro... logs" />
+            <marker date="1466012724927" expanded="true" signature="7853:7903" placeholder="select * fro... logs" />
+            <marker date="1466012724927" expanded="true" signature="8505:8636" placeholder="select * fro... logs" />
+            <marker date="1466012724927" expanded="true" signature="9073:9123" placeholder="select max(i... incremental_id" />
+            <marker date="1466012724927" expanded="true" signature="9742:9791" placeholder="select servi... services" />
+            <marker date="1466012724927" expanded="true" signature="10226:10275" placeholder="select priax... services" />
+            <marker date="1466012724927" expanded="true" signature="10704:10747" placeholder="select priax... hosts" />
+            <marker date="1466012724927" expanded="true" signature="11174:11217" placeholder="select host_... hosts" />
+          </folding>
         </state>
       </provider>
     </entry>
