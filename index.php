@@ -265,7 +265,6 @@ transition-delay: 1s;
     
 <?php
 
-
 include "globals.php";
 include "config-inc.php";
 require_once(dirname(__FILE__)."/BpNOC/BpSyncDB.php");
@@ -292,7 +291,7 @@ $task = $_POST['task'];  ?>
   
 
 ?>      |   Services: <? echo $lic_services = BmApiOpmon::license_services(); ?></h4>
-<h6>"O sync do catalogo não satisfaz as necessidades deste cliente NETCENTRICS(desabilitado em codigo BpOpMonSyncCatalogs.php )"</h6>
+
 <?php
 if(PRIAXURL == NULL){
   print "<h1>Deve-se definir a URL Priax no arquivo config-inc.php</h1>";

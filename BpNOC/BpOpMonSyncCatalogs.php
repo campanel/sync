@@ -11,18 +11,7 @@ class BpOpMonSyncCatalogs{
 	public static function SyncCatalogs() {
 
         Bplog::save("--- Inicio Sync Catalogos ---");
-
-
-
-
-	/**
-	O sync do catalogo nao serve para este cliente
-
-*/Bplog::save("O sync do catalogo não satisfaz as necessidades deste cliente NETCENTRICS");
-exit;
-
-
-
+        
         Bplog::save("GET CATALOGOS PRIAX");
         $scats_priax = BpSyncCatalog::getPriaxScats();
         //var_dump('priaxScats'); var_dump($scats_priax);
