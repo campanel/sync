@@ -1,5 +1,6 @@
 ﻿BUG FIXES
-2016-01-26 - 1.1   ???
+2016-01-26 - 1.1-1 Retirei função de deletar ICs/AICs do config inicial, para não apagar os já existentes
+2016-00-00 - 1.1   ???
 2016-01-26 - 1.0-5 Implementação - exclusão somente de objetos criados no priax, se o IC/AIC for criado manualmente o priax não gerencia.
 2015-11-10 - 1.0-5 Catalogos - Deletar o AIC do Catalogo ao deletar o catalogo
 2015-11-10 - 1.0-4 Ajuste BmPriax

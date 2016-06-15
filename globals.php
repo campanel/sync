@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('America/Sao_Paulo');
 define("DEBUG",2); /** 0 | 1 |2 | 3 | 4 */
-define("VERSION",'1.1');
+define("VERSION",'1.1-2');
 define("CATALOG_PRINCIPAL",'Business');
 define("IC_TEMPLATE_ID",1);
 define("AIC_TEMPLATE_ID",1);
